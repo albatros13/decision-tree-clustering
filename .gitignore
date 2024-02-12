@@ -1,54 +1,5 @@
-<<<<<<< HEAD
-# -- Custom gitignore ---
-# Data directory
-data/
-
-# -- Imported gitignores for R and Python (from https://github.com/github/gitignore) --
-
-# History files
-.Rhistory
-.Rapp.history
-
-# Session Data files
-.RData
-
-# User-specific files
-.Ruserdata
-
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-# Output files from R CMD check
-/*.Rcheck/
-
-# RStudio files
-.Rproj.user/
-
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
-
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# R Environment Variables
-.Renviron
-
-=======
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
->>>>>>> c4fee6f (Experimantal code for decision-tree-based clustering)
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -59,10 +10,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-<<<<<<< HEAD
-=======
 env/
->>>>>>> c4fee6f (Experimantal code for decision-tree-based clustering)
 build/
 develop-eggs/
 dist/
@@ -74,19 +22,9 @@ lib64/
 parts/
 sdist/
 var/
-<<<<<<< HEAD
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
-=======
-*.egg-info/
-.installed.cfg
-*.egg
->>>>>>> c4fee6f (Experimantal code for decision-tree-based clustering)
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -101,24 +39,13 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
-<<<<<<< HEAD
-.nox/
-=======
->>>>>>> c4fee6f (Experimantal code for decision-tree-based clustering)
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
-<<<<<<< HEAD
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-=======
 *,cover
 .hypothesis/
->>>>>>> c4fee6f (Experimantal code for decision-tree-based clustering)
 
 # Translations
 *.mo
@@ -127,11 +54,6 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-<<<<<<< HEAD
-db.sqlite3
-db.sqlite3-journal
-=======
->>>>>>> c4fee6f (Experimantal code for decision-tree-based clustering)
 
 # Flask stuff:
 instance/
@@ -146,64 +68,6 @@ docs/_build/
 # PyBuilder
 target/
 
-<<<<<<< HEAD
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-
-.decision_tree_classifier.egg-info/
-=======
 # IPython Notebook
 .ipynb_checkpoints
 
@@ -319,4 +183,3 @@ fabric.properties
 
 # idea folder, uncomment if you don't need it
 # .idea
->>>>>>> c4fee6f (Experimantal code for decision-tree-based clustering)
